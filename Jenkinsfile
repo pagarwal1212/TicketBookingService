@@ -6,6 +6,7 @@ pipeline {
                //bat "rmdir  /s /q TicketBookingServiceJunitTesting"
                 //bat "git clone https://github.com/kishancs2020/TicketBookingServiceJunitTesting.git"
                 git "https://github.com/kishancs2020/TicketBookingServiceJunitTesting.git"
+                
                 //bat "mvn clean -f TicketBookingServiceJunitTesting"
             }
         }
